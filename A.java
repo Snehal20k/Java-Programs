@@ -1,22 +1,11 @@
-package abstract_1;
+package interfaceinjava;
 
-public abstract class A 
+public interface A 
 {
-	int n;
-	int emp_sal=10000;
+	public int emp_id=65;
+	public int emp_sal=45000;
 	
-	public abstract void get();
-	public abstract void display();
-	public abstract void get_sal();
+	public void get_details();
+	public void get_salary();
 	
-	public A()
-	{
-		n=45;
-		System.out.println(n);
-	}
-	
-	public void show()
-	{
-		System.out.println("In shoe method of A class");
-	}
 }
